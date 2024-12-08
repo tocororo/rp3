@@ -1,0 +1,39 @@
+[cli]
+flavour = RDM
+logfile = /logs/invenio-cli.log
+
+[cookiecutter]
+project_name = rp3
+project_shortname = rp3
+package_name = rp3
+project_site = rp3.upr.edu.cu
+author_name = UPR
+author_email = rafael.martinez@upr.edu.cu
+year = 2024
+database = postgresql
+search = opensearch2
+file_storage = local
+development_tools = yes
+site_code = yes
+use_reduced_vocabs = no
+_template = https://github.com/inveniosoftware/cookiecutter-invenio-rdm.git
+_output_dir = /home/malayo/dev/elinf-citma
+
+[files]
+invenio.cfg = e67033fd67a496cd7f0d7916097f992aa200929d7aa92eedc145fc980ce877be
+readme.md = 99535e9e73206e46afb7cc8bbf1297b8823a153132d1be4b830bc9063cda5f34
+templates = {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}
+docker-compose.yml = 81b0e128a3f2c11866f42f6c45bed43fd0f5cd44a5f74037f7bdbb5cd4a680e1
+translations = {'babel.ini': '3fb6bff73460aa031d4f90fc1e1d16235cab84d2385c9831efacb2ce32e5409b'}
+static = {'robots.txt': 'bb37b06b33e7d97f41aef939f8ef3052898c7f6d6fdfc7c9d37b6d0605c86ff3', 'images': {'logo-invenio-white.svg': '5af2c7b67a09798cba3d50cc2e811ca9fd2ff73b40d9d2a52a97237b9ed44008', 'invenio-rdm.svg': '50f09b4d83244a69c58f44aa436a3fa097726d9b47fd0e0782ea92d31f854b65'}}
+docker-compose.full.yml = d386d270a9d7a6ee5fa0f032b12cdfa631102db0981626399934e10e3c457bdf
+app_data = {'README.md': 'd58978488626bdeddc791a15a39e341a4ed06f202b84d0c0d4aa9ef49481c6d9', 'vocabularies': {'names.yaml': '6dc80984186ec960bcf53fbb6c482554d0aaf386d345bf82f504fdbd896e5848', 'languages.yaml': 'd3bdb59940e8e6cd2401785ad55733f5fc6a1fb0bb0a2005a8fe4e5148e5f286', 'cc_licences.csv': '19a8bfd2488c7adb90d1dbe1c70f57cf2e0a737cb11814cc814f917072843de7', 'subjects_oecd_fos.yaml': 'eef38714c506d956193c3be17e6004049525d252bf22424f4804dfc1ad46db44', 'affiliations_ror.yaml': '2e913fbecacd3694cba1b9a10739164911c2d45db3b32f1cb923027c48e0ac3e'}, 'vocabularies.yaml': '86f780281913b4ed5683775632d36511b16dff4b4f90fa7f14127cf69ab4e0cc', 'pages': {'.gitkeep': '22818f8c9f68fb11b7ca893ad1c082f844ae9f691f082d2174e32738d9ae6114'}}
+docker-services.yml = 4dfca3230b0379e172a99f473ba3c630b8bb6e34f9d979f6c82e4506acf7942f
+.dockerignore = 21241bc12cdf4ac5f209d6b191adc8f25eb89af93ce5c4c3f72c86661162d7b5
+dockerfile = 44e5c207cf3e82cddda086f73e6fa5f3bacfc06d11f55a95f954d744a773c605
+assets = {'templates': {'custom_fields': {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}, 'search': {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}}, 'js': {'invenio_app_rdm': {'overridableRegistry': {'mapping.js': '7fb63c1b801d11f1c1bb9b7d5cad6662ae475210df2bbba6919cda402684590a'}}}, 'less': {'theme.config': 'ee68441b779400585a3a1ed4445ab5727e3a47a09aa708976dd506c0e081f0d8', 'site': {'globals': {'site.overrides': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'site.variables': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}}}
+.gitignore = af1182c70588e583daeb35809e6cdfe3408425d438c3ceb282b1f4b8360290e2
+docker = {'nginx': {'conf.d': {'default.conf': '732bdcce7677169820b28d8571779ee2f7837dfe9f8c0005584a44215fc1945c'}, 'nginx.conf': '6c9a6e372fc340dfcd3b49e6a30bd7bd36af41d79d1d093b7b3ba5f4c9d781b4', 'test.key': 'ca676d9536708c41a548064ba5d3163f9238a611f05eb2e5a6c30f96c83de0e5', 'test.crt': 'b698888b8f9207c73d5974863c8ac98f278959b6d4711bca24e764f5e696a4f8', 'Dockerfile': '541326766beaba2e8492255c99e11aa76640d71329ceab5bcab1c8d6a979bd5c'}, 'pgadmin': {'servers.json': 'eaf381dd8123b75216bb6fd1f6dbd0811f064a760f19132ebd7f171601c5c492'}, 'uwsgi': {'uwsgi_ui.ini': 'aeb0797a1fadb462e0ed208c979d5152cc58a85958d4de9c4e989637c70b9005', 'uwsgi_rest.ini': 'c36fc5021baf15f375b3b6c825f7753e5d166319c5fe38a85b604391ce5b37b6'}}
+site = {'.gitkeep': 'ee42df50a820f3594565e98ecc7714fbf1fee8f3c9739bc36131bea0ddff5525', 'pyproject.toml': 'e1acd833b38f03f26cc31439246cbeeb82e2edf56c751f28c3247cb44e95caca', 'rp3': {'templates': {'semantic-ui': {'rp3': {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}}}, 'webpack.py': 'a4847bb7c6582d5483a207a69484c972d3386ab7eb4d721bc85cc10d0e673fde', 'views.py': '40a4eeb30298e81789435edb65047d8c8a7c998f0c373af30b0322954be3dd1c', '__init__.py': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'assets': {'semantic-ui': {'js': {'rp3': {'.gitkeep': '3253a6fe7fc74a1279fb374e67ffd3383eded63cd28c4877afd77dffc8cc5da4'}}, 'less': {'rp3': {'.gitkeep': 'de96a61fec5b6b168bced6dda58bd11e353f618ae9bee45aad9253cb0d6c5617'}}}}}, 'setup.cfg': '3e0121f7bc6e12c921b009f0cca1254b4abacdda84ed44bf848913e79ca6ac6e', 'setup.py': '843ac26c38a41abae578250bc0f9419194b320a0f67327d941037a4268f6cfe7', 'tests': {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}}
+pipfile = 408488c86b0daf4b6f5092357af16c0cbab3ae20582a512198fab48b2d086235
+

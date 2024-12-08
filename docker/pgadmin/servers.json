@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "rp3-db",
+      "Group": "Servers",
+      "Host": "rp3-db-1",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "rp3",
+      "SSLMode": "prefer"
+    }
+  }
+}
